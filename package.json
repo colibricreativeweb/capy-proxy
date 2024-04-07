@@ -2,13 +2,14 @@
   "name": "capy-proxy",
   "version": "1.0.0",
   "description": "CORS Anywhere proxy server implementation for our projects.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Colibri Creative Web",
+  "license": "MIT",
   "dependencies": {
     "cors-anywhere": "^0.4.4",
     "http-server": "^14.1.1"
